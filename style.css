@@ -3,7 +3,7 @@
     font-family: poppins;
 }
 
-.navbar a:hover{
+.navbar a:hover:not(.title){
     color: #80a2ff
 }    
 
@@ -26,4 +26,8 @@ body{
 
 .col{
     padding-right: 0%;
-}  
+} 
+
+.title{
+    text-decoration: none;
+}
